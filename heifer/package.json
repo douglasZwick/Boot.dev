@@ -1,0 +1,20 @@
+{
+  "name": "heifer",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Something about a cow I guess",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "author": "Doug Zwick",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.28.6",
+    "@babel/core": "^7.29.0",
+    "@babel/preset-env": "^7.29.0"
+  },
+  "dependencies": {
+    "cowsay": "^1.6.0"
+  }
+}
